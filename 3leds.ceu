@@ -33,6 +33,8 @@ with
 			await 500ms;
 		with
 			await PIN_10;
+			await 5ms;
+			await PIN_10;
 			break;
 		end
 	end
