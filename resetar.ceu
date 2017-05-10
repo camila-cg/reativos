@@ -1,0 +1,25 @@
+#include "arduino/arduino.ceu"
+
+output int PIN_02;
+input int PIN_10; //bt
+var int bt=LOW;
+par/or do
+	loop do
+		emit PIN_02(HIGH);
+		await 1s;
+		emit PIN_02(LOW);
+		await 1s;
+	end
+with
+	loop do
+		bt = await PIN_10;
+		if bt==HIGH then
+			par/or do
+				await 5s;
+				break;
+			with
+				await PIN_10;
+			end
+		end
+	end
+end
