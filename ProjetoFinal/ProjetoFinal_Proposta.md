@@ -12,9 +12,9 @@ A ideia consiste em aprimorarmos o jogo em SDL criando para este um controlador 
 ##### Melhorias para o jogo:
 * Permitir que ao final do jogo o usuário possa escolher entre jogar novamente ou sair do jogo [C]
 * Criação de tela inicial do jogo contendo: [C]
- * Instruções;
- * Recorde alcançado;
- * Nível de dificuldade;
+    * Instruções;
+    * Recorde alcançado;
+    * Nível de dificuldade;
 * Criação de esquema de pontuação [R]
 * Exibição do tempo de jogo [C]
 * Gerência de vidas para o usuário(Atualmente o jogo termina quando o jogador é atingido por algum tiro ou colide com um inimigo). O objetivo é que ela tenha inicialmente 3 vidas.  [R]
