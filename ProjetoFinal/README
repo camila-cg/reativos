@@ -1,0 +1,6 @@
+Descrição do Projeto:
+O Beach Raid é um jogo baseado em um famoso jogo de Atari dos anos 80, o River Raid. O jogo consiste em uma nave com combustível e munição infinitos que sobrevoa um deserto e precisa evitar ser atingida por seus inimigos(tanque de guerra, torre de guerra e helicóptero), que podem matá-la com tiros ou por colisão.  O objetivo do jogo é sobreviver o máximo de tempo possível, havendo um record para cada nível de dificuldade(fácil, médio, difícil). A nave pode ser controlada via teclado ou pelo controlador Arduino. 
+
+Link com o vídeo de execução do jogo:
+https://www.youtube.com/watch?v=n7ZNI_0yXJI
+
